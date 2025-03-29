@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #1E1E1E;
+}
+.container{
+    width: 1340px;
+    height: 3004px;
+    margin: 36px auto 0 auto;
+}
+/*---main_header---*/
+.header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 86px;
+}
+.header a{
+    text-decoration: none;
+    color: #E9E3DC;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
+.header .header-button{
+    padding: 22px 27px;
+    background: #B3A0CD;
+    color: #1E1E1E;
+}
+/*----main_base-----*/
+.main-base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.base-text{
+    width: 1255px;
+    height: 285px;
+    margin-top: 74px;
+}
+.base-text h1{
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 107.088px;
+    line-height: 88.896%; /* 95.198px */
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    padding-bottom: 33px;
+}
+.base-img{
+    margin-top: 33px;
+}
+/*----section_description----*/
+.description-box{
+    width: 100%;
+    height: 370px;
+    border-radius: 30px;
+    border: 4px solid #1E1E1E;
+    background: #D1EF53;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description-left{
+    width: 533px;
+    color: #1E1E1E;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    line-height: 88.896%; /* 62.228px */
+    letter-spacing: -1.4px;
+    text-transform: uppercase;
+}
+.description-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 55px;
+}
+.description-right p{
+    width: 521px;
+    height: 75px;
+    color: #1E1E1E;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 139.896%; /* 33.575px */
+    letter-spacing: -0.48px;
+}
+.description-right a{
+    padding: 22px 35px;
+    border: 4px solid #1E1E1E;
+    background: #E9E3DC;
+    box-shadow: 8px 8px 0px 0px #000;
+    text-decoration: none;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
+/*----section_imgs----*/
+.imgs{
+    margin-top: 64px;
+}
+.imgs-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgs-top img{
+    width: 650px;
+    height: 753px;
+    border-radius: 30px;
+    border: 4px solid #E9E3DC;
+}
+.imgs-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+.imgs-bottom img{
+    width: 1340px;
+    height: 503px;
+    border-radius: 30px;
+    border: 4px solid #D9D9D9;
+
+}
+/*----main_footer---*/
+footer{
+    width: 100%;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+.main-footer{
+    width: 895px;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 33px;
+}
+.footer-text h2{
+    width: 895px;
+    color: #E9E3DC;
+    font-family: "Bowlby One", sans-serif;
+    text-align: center;
+    font-size: 70px;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+}
+.footer-button{
+    width: 196px;
+    height: 60px;
+    background: #D1EF53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button a{
+    color: #1E1E1E;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Bowlby One", sans-serif;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
