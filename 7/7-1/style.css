@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+/*------------*/
+.card1, .card2, .card3{
+    width: 319px;
+    height: 492px;
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+}
+div.card1>p:first-of-type{
+    color: #000;
+    font-size: 40px;
+}
+div.card1>p:last-of-type{
+    width: 211px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+}
+div.card2>p:first-of-type{
+    color: #000;
+    font-size: 40px;
+}
+div.card2>p:last-of-type{
+    width: 211px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+}
+div.card3>p:first-of-type{
+    color: #000;
+    font-size: 40px;
+}
+div.card3>p:last-of-type{
+    width: 211px;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+}
