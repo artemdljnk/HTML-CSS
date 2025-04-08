@@ -1,0 +1,18 @@
+@import "reset.css";
+@media screen and (min-width: 652px) and (max-width: 768px) {
+    .container {
+        width: 720px;
+        height: 556px;
+        display: flex;
+        flex-direction: column;
+    }
+    .top, .bottom{
+        width: 720px;
+        height: 258px;
+        display: flex;
+    }
+    .block1{
+        width: 348px;
+        height: 258px;
+    }
+}

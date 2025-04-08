@@ -1,0 +1,36 @@
+@import "reset.css";
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container, .top, .bottom{
+    width: 1180px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*----top----*/
+.block1{
+    width: 271px;
+    height: 280px;
+}
+.block1 img{
+    margin-bottom: 20px;
+}
+.block1 p:first-of-type{
+    color: #161543;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    margin-bottom: 10px;
+}
+.block1 p:last-of-type{
+    color: #7687A1;
+    width: 271px;
+    height: 66px;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}

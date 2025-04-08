@@ -1,0 +1,16 @@
+@import "reset.css";
+@media screen and (min-width: 654px) and (max-width: 768px) {
+    .container{
+        width: 720px;
+        height: 590px;
+        justify-content: center;
+    }
+    .top, .bottom{
+        width: 720px;
+        height: 263px;
+    }
+    .block1{
+        width: 218px;
+        height: 239px;
+    }
+}
