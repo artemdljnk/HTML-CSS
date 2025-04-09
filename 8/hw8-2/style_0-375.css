@@ -3,7 +3,6 @@
     .container {
         width: 343px;
         height: 976px;
-        background-color: rgba(0, 0, 0, 0.18);
         flex-direction: column;
     }
     .top, .bottom{
