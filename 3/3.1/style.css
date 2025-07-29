@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 1848px;
+    height: 300px;
+    background-color: blue;
+}
+.block_container{
+    width: 1848px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block{
+    width: 414px;
+    height: 450px;
+background-color: red;
+}
+.info{
+    width: 1848px;
+    height: 1749px;
+    background-color: blue;
+}
