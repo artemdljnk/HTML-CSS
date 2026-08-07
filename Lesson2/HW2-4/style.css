@@ -1,0 +1,31 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block{
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.font1{
+    font-family: "Rubik Pixels", system-ui;
+}
+.font2{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+.font3{
+    font-family: "Dancing Script", cursive;
+}
+.font4{
+    font-family: "Fjalla One", sans-serif;
+}
+.font5{
+    font-family: "Indie Flower", cursive;
+}

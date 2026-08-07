@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 65%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s;
+}
+.cube:hover{
+    background-color: dimgray;
+    border-radius: 50%;
+    transition: 0.5s;
+}
