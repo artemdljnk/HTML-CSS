@@ -14,12 +14,14 @@ h1{
     flex-direction: column;
     gap: 35px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 .top-list, .bottom-list{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .block{
     width: 250px;
